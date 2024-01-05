@@ -196,13 +196,11 @@ z_hop: 10
 z_hop_speed: 5
 
 
-
-
 [bed_mesh]
-speed: 150
-horizontal_move_z: 4
-mesh_min: 12, 12
-mesh_max: 203, 220
+speed: 120
+horizontal_move_z: 5
+mesh_min: 32,44
+mesh_max: 202, 220
 probe_count: 9, 9
 mesh_pps: 2, 3
 algorithm: bicubic
@@ -210,7 +208,6 @@ bicubic_tension: 0.
 fade_start: 1
 fade_end: 10
 fade_target: 0
-
 
 [bed_screws]
 screw1: 61, 15
